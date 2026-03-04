@@ -4,5 +4,4 @@
 **/_output
 *.swp
 lean4-skills/
-lean/
 /.lake

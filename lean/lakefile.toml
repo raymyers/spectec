@@ -1,0 +1,22 @@
+name = "SpectecLean"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["SpectecLean"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[require]]
+name = "cslib"
+scope = "leanprover"
+rev = "main"
+
+[[lean_lib]]
+name = "SpectecLean"
