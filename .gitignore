@@ -1,6 +1,8 @@
-**/*~
-**/*.tmproj
+**/***/*.tmproj
 **/*.pyc
 **/_build
 **/_output
 *.swp
+lean4-skills/
+lean/
+/.lake
